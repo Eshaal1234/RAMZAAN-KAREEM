@@ -4,7 +4,7 @@ let mintuesItem = document.querySelector(".mintues")
 let SecondsItem = document.querySelector(".Seconds")
 
 let countDown = () => {
-    let fuDate = new Date("22 april 2023");
+    let fuDate = new Date("23 march 2023");
     let curruDate = new Date();
     let iamDate = fuDate - curruDate;
 
