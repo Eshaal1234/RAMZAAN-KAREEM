@@ -6,7 +6,7 @@ let SecondsItem = document.querySelector(".Seconds")
 let countDown = () => {
     let fuDate = new Date("22 march 2023");
     let curruDate = new Date();
-    let iamDate = fuDate - curruDate;
+    let iamDate = curruDate - fuDate;
 
     let days = Math.floor(iamDate/ 1000 / 60 / 60 / 24);
     let hour = Math.floor(iamDate/ 1000 / 60 / 60) % 24;
